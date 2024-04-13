@@ -1,0 +1,49 @@
+html {
+    background-color: #101518;
+    color: rgb(255, 255, 255);
+  }
+  
+  main, footer {
+    background-color: #101518;
+    color: rgb(255, 255, 255);
+    padding-top: 1cm;
+  }
+  
+  .card-img-top {
+    padding: 0.5cm;
+    border-radius: 30px;
+  }
+  
+  .album {
+    color: rgb(255, 255, 255);
+    background-color: #101518;
+  }
+  
+  .album .container {
+    color: rgb(255, 255, 255);
+    margin-top: 1cm;
+  }
+  
+  .card {
+    color: rgb(255, 255, 255);
+    background-color: #1A2023;
+    border: 3px solid #004BD6;
+    border-radius: 10px;
+  }
+  
+  .container.marketing,
+  footer.container {
+    background-color: #101518;
+    color: #ffffff;
+  }
+  
+  .bg-black {
+    background-color: #2b1787;
+  }
+
+  .card-img-top {
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    height: 200px; /* Establece una altura fija para todas las imágenes */
+    object-fit: cover; /* Escala la imagen para que llene el contenedor sin distorsión */
+}
+
